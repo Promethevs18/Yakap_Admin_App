@@ -4,23 +4,46 @@ plugins {
 }
 
 android {
+    signingConfigs {
+        debug {
+            storeFile file('A:\\Documents\\All_Programming_Files\\Android Keys\\Deployment.jks')
+            storePassword 'phony112'
+            keyAlias 'vonnie'
+            keyPassword 'phony112'
+        }
+        release {
+            storeFile file('A:\\Documents\\All_Programming_Files\\Android Keys\\Deployment.jks')
+            storePassword 'phony112'
+            keyAlias 'vonnie'
+            keyPassword 'phony112'
+        }
+    }
     namespace 'com.reservation.yakapadminapp'
-    compileSdk 33
+    compileSdk 34
 
     defaultConfig {
         applicationId "com.reservation.yakapadminapp"
         minSdk 26
-        targetSdk 33
+        targetSdk 34
         versionCode 1
-        versionName "1.0"
+        versionName '1.0.1'
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        multiDexEnabled true
+        signingConfig signingConfigs.release
     }
 
     buildTypes {
         release {
-            minifyEnabled false
+            minifyEnabled true
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.release
+            multiDexEnabled true
+        }
+        debug {
+            signingConfig signingConfigs.debug
+            minifyEnabled true
+            multiDexEnabled true
         }
     }
     compileOptions {
