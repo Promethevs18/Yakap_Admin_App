@@ -1,0 +1,84 @@
+{
+  "project_info": {
+    "project_number": "966287741955",
+    "project_id": "yakap-ticketing-system",
+    "storage_bucket": "yakap-ticketing-system.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:966287741955:android:1d87a6cc6556d45a6faa36",
+        "android_client_info": {
+          "package_name": "com.reservation.yakapadminapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "966287741955-eh20lshb893btpu0u8o7nkm7ctatj6qs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAmJEs0DnG1pOonZLhsQVL17X0L1kNTsks"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "966287741955-eh20lshb893btpu0u8o7nkm7ctatj6qs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:966287741955:android:1df9d0c3f2f78d5b6faa36",
+        "android_client_info": {
+          "package_name": "com.reservation.yakapreseverationapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "966287741955-imh3853j5u965ajvbgtdhlgmb025d8kn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.reservation.yakapreseverationapplication",
+            "certificate_hash": "770387b2e914c60e673575d6cd92952875e588ca"
+          }
+        },
+        {
+          "client_id": "966287741955-kqv3ifg53rad6tcsbpekbdmd6ihnho6u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.reservation.yakapreseverationapplication",
+            "certificate_hash": "e9559b901b82f76a5e90b647ae32155bdf0e002a"
+          }
+        },
+        {
+          "client_id": "966287741955-eh20lshb893btpu0u8o7nkm7ctatj6qs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAmJEs0DnG1pOonZLhsQVL17X0L1kNTsks"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "966287741955-eh20lshb893btpu0u8o7nkm7ctatj6qs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
