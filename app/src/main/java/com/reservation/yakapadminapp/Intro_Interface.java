@@ -73,6 +73,9 @@ public class Intro_Interface extends AppCompatActivity {
                     passPath.putExtra("user path", extracted);
                     startActivity(passPath);
                 }
+                else{
+                    Toast.makeText(this, "Data scanned is invalid", Toast.LENGTH_SHORT).show();
+                }
             }
         });
 
